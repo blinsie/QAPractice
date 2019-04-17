@@ -1,0 +1,4 @@
+2019-03-20 19:28:10 [ERROR] Logging:12 - / by zero
+java.lang.ArithmeticException: / by zero
+	at Logging.divide(Logging.java:22) ~[TestingLog4J/:?]
+	at Logging.main(Logging.java:10) [TestingLog4J/:?]

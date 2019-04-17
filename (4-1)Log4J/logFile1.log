@@ -1,0 +1,10 @@
+2019-03-20 19:25:26 [DEBUG] Logging:18 - divide method invoked; 2 / 0
+2019-03-20 19:25:27 [WARN ] Logging:20 - x = 0; exception may occur
+2019-03-20 19:25:27 [ERROR] Logging:12 - / by zero
+java.lang.ArithmeticException: / by zero
+	at Logging.divide(Logging.java:22) ~[TestingLog4J/:?]
+	at Logging.main(Logging.java:10) [TestingLog4J/:?]
+2019-03-20 19:25:27 [DEBUG] Logging:18 - divide method invoked; 2 / 1
+2019-03-20 19:25:27 [INFO ] Logging:10 - result: 2
+2019-03-20 19:25:27 [DEBUG] Logging:18 - divide method invoked; 2 / 2
+2019-03-20 19:25:27 [INFO ] Logging:10 - result: 1
